@@ -1,4 +1,4 @@
-# Stock Analysis Challenge – Evaluating Refactored Code
+# Stock Analysis Challenge – Refactoring Analysis Macro
 ## Project Overview
 Our client, Steve, asked us to automate the calculation of the trade volume and price change for a set of “Green” stock tickers within 2 specific years.  Steve wants to help his parents choose better performing stocks than the one they chose originally - “DQ”. He also wants to be able to evaluate more stocks in the future so he needs a well performing analysis tool where he can increase the number of stocks he evaluates.  
 
@@ -46,7 +46,7 @@ Below are two code snippets to show how the macro was changed.  The first code s
 
 ## Summary
 
-Refactoring code is an important step in the development process.  Many times, when writing code to solve a problem, solving the problem is the top priority.  Knowing how to make the code run efficiently and at scale is not always evident before the problem is solved.  Having a refactor step in a development process is a great way to fix performance issues before they get into a production environment.  The disadvantages to refactoring code is that there can be bugs introduced during this step and it prolongs the development life-cycle. 
+Refactoring code is an important step in the development process.  Many times, when writing code to solve a problem, solving the problem is the top priority.  Knowing how to make the code run efficiently and at scale is not always evident before the problem is solved.  Having a refactor step in a development process is a great way to fix performance issues before they get into a production environment.  The disadvantages to refactoring code is that there can be bugs introduced during this step and it prolongs the development lifecycle. 
 
 For this particular exercise, the pros far outweighed the cons of a refactoring step.  The dataset was known and could be tested so bugs could be rooted out.  The performance of the code could be measured so the goal of reducing processing time could be tested.   Overall, this development project benefited from spending the time to refactor the macro.
 
